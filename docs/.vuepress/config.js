@@ -30,6 +30,23 @@ module.exports = {
                     { text: "GIt配置", link: "/softwareConfiguration/git" }
                 ]
             },
+            {
+                text: "推荐与安装",
+                link: "/softwareInstallation/",
+                items: [
+                    {
+                        text: "开发软件",
+                        items: [
+                            { text: "IDEA", link: "/softwareInstallation/idea" },
+                            { text: "GIt配置", link: "/softwareInstallation/git" }
+                        ]
+                    },
+                    {
+                        text: "效率软件",
+                        items: [{ text: "截屏软件", link: "/softwareInstallation/snipaste" }]
+                    }
+                ]
+            },
             { text: "关于我", link: "https://blog.isww.cn/" }
         ]
     },
