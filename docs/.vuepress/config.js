@@ -17,9 +17,41 @@ module.exports = {
             { text: "首页", link: "/" },
             {
                 text: "学习资源",
+                link: "/learningResource/",
                 items: [
-                    { text: 'Java', items: [{ text: "资源网站", link: "/learningResource/Java" }] },
-                    { text: 'Mysql', items: [{ text: "资源网站", link: "/learningResource/Mysql" }] }
+                    {
+                        text: 'Java', items: [
+                            { text: "八股文", link: "/learningResource/Java/八股文" },
+                            { text: "面试题", link: "/learningResource/Java/面试题" }
+                        ]
+                    },
+                    {
+                        text: 'Mysql', items: [
+                            { text: "八股文", link: "/learningResource/mysql/八股文" },
+                            { text: "面试题", link: "/learningResource/mysql/面试题" }
+                        ]
+                    },
+                    {
+                        text: '计算机网络', items: [
+                            { text: "八股文", link: "/learningResource/computer-networks/八股文" },
+                            { text: "面试题", link: "/learningResource/computer-networks/面试题" }
+                        ]
+                    },
+                    {
+                        text: '操作系统', items: [
+                            { text: "八股文", link: "/learningResource/os/八股文" },
+                            { text: "面试题", link: "/learningResource/os/面试题" }
+                        ]
+                    },
+                    {
+                        text: '框架',
+                        link: "/learningResource/frameword",
+                        items: [
+                            { text: "Spring", link: "/learningResource/frameword/Spring/" },
+                            { text: "SpringBoot", link: "/learningResource/frameword/SpringBoot/" },
+                            { text: "SpringCloud", link: "/learningResource/frameword/SpringCloud/" },
+                        ]
+                    }
                 ]
             },
             {
@@ -46,6 +78,9 @@ module.exports = {
                         items: [{ text: "截屏软件", link: "/softwareInstallation/snipaste" }]
                     }
                 ]
+            },
+            {
+                text: "技巧积攒", link: "/tips/",
             },
             { text: "关于我", link: "https://blog.isww.cn/" }
         ]

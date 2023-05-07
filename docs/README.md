@@ -1,9 +1,9 @@
 ---
 home: true
-heroText: 一个分享Java学习资源的地方
+heroText: 分享软件开发学习资源的地方
 tagline: 软件开发心得
 actionText: 查看资源 →
-actionLink: /软件资源/软件资源
+actionLink: /softwareInstallation/
 features:
 - title: 网盘资源
   details: 所有网盘资源均来自互联网，本网站不生产任何网盘资源，网盘资源是否失效需要自行判断。
