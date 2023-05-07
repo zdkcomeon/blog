@@ -76,8 +76,9 @@ module.exports = {
                     {
                         text: "效率软件",
                         items: [
-                            { text: "截屏软件", link: "/softwareInstallation/snipaste" },
-                            { text: "利器uTools", link: "/softwareInstallation/uTools" }
+                            { text: "snipaste", link: "/softwareInstallation/snipaste" },
+                            { text: "uTools", link: "/softwareInstallation/uTools" },
+                            { text: "draw.io", link: "/softwareInstallation/draw-io" }
                         ]
                     }
                 ]
