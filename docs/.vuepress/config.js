@@ -70,12 +70,15 @@ module.exports = {
                         text: "开发软件",
                         items: [
                             { text: "IDEA", link: "/softwareInstallation/idea" },
-                            { text: "GIt配置", link: "/softwareInstallation/git" }
+                            { text: "GIt", link: "/softwareInstallation/git" }
                         ]
                     },
                     {
                         text: "效率软件",
-                        items: [{ text: "截屏软件", link: "/softwareInstallation/snipaste" }]
+                        items: [
+                            { text: "截屏软件", link: "/softwareInstallation/snipaste" },
+                            { text: "利器uTools", link: "/softwareInstallation/uTools" }
+                        ]
                     }
                 ]
             },
