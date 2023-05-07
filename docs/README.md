@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 一个分享各类资源的地方
-tagline: 公众号：资料分享大师
+heroText: 一个分享Java学习资源的地方
+tagline: 软件开发心得
 actionText: 查看资源 →
 actionLink: /软件资源/软件资源
 features:
