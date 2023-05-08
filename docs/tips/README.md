@@ -1,7 +1,16 @@
 # 技巧，效率，心得
+::: tip 前言
+Java8引入的lamda表达式，完善了Java的函数式编程，在日常编码中可以善用Java的lamda表达式优化代码，提高可读性。<br/>
 
+日常编码中，大量的工具类被编码出，但是都随着项目的流失而消失了，下次想用却无了，所以可以收集日常的工具类，包括自己写得、对开源的工具二次封装的，都是可以的。<br/>
+
+**欢迎大家投稿，一起完善。** [发起pr](https://markdown.com.cn "最好的markdown教程")。
+:::
 ## Java
 ### throwIf():处理异常抛出
+
+**throwIf()** 是对编码中的条件成立，则抛出异常的优化处理，我们只需要提供条件，告诉要跑出的异常即可；直接把if语句抽出为一个块级语法。其中使用了Java内置的函数接口**Supplier**供给者接口，返回一个异常对象。
+
 ```java
 public static <X extends Throwable> void throwIf(boolean condition, Supplier<X> supplier) throws X {
       if (condition) {
@@ -9,6 +18,8 @@ public static <X extends Throwable> void throwIf(boolean condition, Supplier<X> 
       }
 }
 ```
+**【例-throwIf()使用】**
+
 ### doIf():替代If()
 ```java
     /**
@@ -32,6 +43,7 @@ public static <X extends Throwable> void throwIf(boolean condition, Supplier<X> 
         void exec();
     }
 ```
+**【例-doIf()使用】**
 ## Json优化操作
 
 ### 格式化Json
@@ -40,3 +52,7 @@ public static <X extends Throwable> void throwIf(boolean condition, Supplier<X> 
 直接把一串json改成一颗树，操作数据结构树
 ### JsonPath
 相当于按照路径查找json中key对应的value，不需要进行一次Json对象转换
+## Redission 优化使用
+
+### 执行业务锁优化
+
