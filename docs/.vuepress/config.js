@@ -59,7 +59,8 @@ module.exports = {
                 link: "/softwareConfiguration/",
                 items: [
                     { text: "IDEA配置", link: "/softwareConfiguration/idea" },
-                    { text: "GIt配置", link: "/softwareConfiguration/git" }
+                    { text: "GIt配置", link: "/softwareConfiguration/git" },
+                    { text: "JetBrains免费方案", link: "/softwareConfiguration/JetBrains全家桶免费" }
                 ]
             },
             {
@@ -70,7 +71,8 @@ module.exports = {
                         text: "开发软件",
                         items: [
                             { text: "IDEA", link: "/softwareInstallation/idea" },
-                            { text: "GIt", link: "/softwareInstallation/git" }
+                            { text: "GIt", link: "/softwareInstallation/git" },
+                            { text: "JetBrains Toolbox", link: "/softwareInstallation/JetBrains-Toolbox" }
                         ]
                     },
                     {
