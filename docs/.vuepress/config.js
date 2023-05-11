@@ -72,9 +72,9 @@ module.exports = {
                         items: [
                             { text: "IDEA", link: "/softwareInstallation/idea" },
                             { text: "GIt", link: "/softwareInstallation/git" },
-                            { text: "TortoiseGit小乌龟", link: "/softwareInstallation/git" },
-                            { text: "JVMS jdk管理", link: "/softwareInstallation/git" },
-                            { text: "NVM node管理", link: "/softwareInstallation/git" },
+                            { text: "TortoiseGit小乌龟", link: "/softwareInstallation/TortoiseGit" },
+                            { text: "JVMS jdk管理", link: "/softwareInstallation/jvms" },
+                            { text: "NVM node管理", link: "/softwareInstallation/nvm" },
                             { text: "JetBrains Toolbox", link: "/softwareInstallation/JetBrains-Toolbox" }
                         ]
                     },
