@@ -74,6 +74,7 @@ module.exports = {
                             { text: "GIt", link: "/softwareInstallation/git" },
                             { text: "TortoiseGit小乌龟", link: "/softwareInstallation/git" },
                             { text: "JVMS jdk管理", link: "/softwareInstallation/git" },
+                            { text: "NVM node管理", link: "/softwareInstallation/git" },
                             { text: "JetBrains Toolbox", link: "/softwareInstallation/JetBrains-Toolbox" }
                         ]
                     },
