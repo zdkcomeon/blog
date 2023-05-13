@@ -88,9 +88,8 @@ module.exports = {
                     }
                 ]
             },
-            {
-                text: "技巧积攒", link: "/tips/",
-            },
+            { text: "技巧积攒", link: "/tips/" },
+            { text: "孤独程序员食谱", link: "/tips/" },
             { text: "关于我", link: "https://blog.isww.cn/" }
         ]
     },
