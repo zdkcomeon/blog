@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 分享软件开发学习资源的地方
+heroText: 节节高
 tagline: 软件开发心得
 actionText: 查看资源 →
 actionLink: /softwareInstallation/
