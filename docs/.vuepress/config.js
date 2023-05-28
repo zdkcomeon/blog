@@ -83,7 +83,8 @@ module.exports = {
                         items: [
                             { text: "snipaste", link: "/softwareInstallation/snipaste" },
                             { text: "uTools", link: "/softwareInstallation/uTools" },
-                            { text: "draw.io", link: "/softwareInstallation/draw-io" }
+                            { text: "draw.io", link: "/softwareInstallation/draw-io" },
+                            { text: "trello", link: "/softwareInstallation/trello" }
                         ]
                     }
                 ]
