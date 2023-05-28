@@ -20,6 +20,16 @@
 - nvm install version
 - nvm rm version
 
+## 配置下载代理
+
+- [参考文献](https://juejin.cn/post/7095318124433506341)
+
+CMD终端输入：<br/>
+设置**npm_mirror**: nvm npm_mirror https://npmmirror.com/mirrors/npm/ <br/>
+设置**node_mirror**: nvm node_mirror https://npmmirror.com/mirrors/node/
+
+
+
 ## 项目优化配置
 在项目中新建文件 `.nvmrc` ,在文件中写入当前项目的版本。当切换到该项目时使用 `nvm use`指令自动切换node版本，**前提已经安装了当前版本。**
 ![.nvmrc](./imgs/nvmrc.png)
