@@ -56,3 +56,42 @@ public static <X extends Throwable> void throwIf(boolean condition, Supplier<X> 
 
 ### 执行业务锁优化
 
+> 采用lambda 函数接口优化业务逻辑
+
+```java
+@Slf4j
+@Service
+public class LockUtils {
+
+
+    @Autowired
+    private RedissonClient redissonClient;
+
+    /**
+     * 自动加锁，执行业务，释放锁
+     *
+     * @param lockBusiness
+     * @param lockName
+     */
+    public void tryLockAndExec(LockBusiness lockBusiness, String lockName) {
+        RLock lock = redissonClient.getLock(lockName);
+        lock.lock();
+        try {
+            log.info("lockName:【{}】已成功 *加* 锁", lockName);
+            lockBusiness.business();
+        } finally {
+            lock.unlock();
+            log.info("lockName:【{}】已成功 *解* 锁", lockName);
+        }
+    }
+
+    @FunctionalInterface
+    public interface LockBusiness {
+        /**
+         * 锁业务，没有任何参数与返回值
+         */
+        void business();
+    }
+}
+```
+
