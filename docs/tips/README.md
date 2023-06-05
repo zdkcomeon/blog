@@ -94,4 +94,36 @@ public class LockUtils {
     }
 }
 ```
+## Spring使用优化
+
+### 使用构造器注入代替属性注入
+
+**一般情况**，使用Spring注入时，可能会选择`@Autowired`或者`@Resource`两个注解，如下：
+
+```java
+@Service
+public class ArticleDataService {
+    @Autowired
+    private RedisTemplate redisTemplate;
+    @Resource
+    private LikeDomainService likeDomainService;
+}
+```
+但是如上两个注解会存在数据不存在，注入的数据为null的情况，而且项目启动时有可能无法正常启动，缺乏依赖异常。<br/>
+问题本质就是在编译期间，错误没有检查出来，所以可以借助Java编译期间检查，检查依赖是否存在，避免上述问题。<br/>
+**替换方案：**   使用有参构造器注入属性，同时设置需要注入的属性为`final`类型，强制构造器注入，体检进行依赖注入。
+
+```java
+@Slf4j
+@Service
+@RequiredArgsConstructor
+public class UserCaseService {
+
+    private final UserDomainService userDomainService;
+    private final PasswordEncodeAndDecode passwordEncodeAndDecode;
+    private final UserRoleDomainService userRoleDomainService;
+    private final RoleDomainService roleDomainService;
+}
+```
+
 
