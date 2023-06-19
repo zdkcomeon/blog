@@ -1,6 +1,6 @@
 version: '1.0'
 name: pipeline-20230619
-displayName: 编译最新Blog
+displayName: build
 triggers:
   trigger: auto
   push:
@@ -8,12 +8,11 @@ triggers:
       prefix:
         - master
 stages:
-  - name: stage-5c2a3bdf
-    displayName: build
+  - name: stage-1c682f38
+    displayName: 未命名
     strategy: naturally
     trigger: auto
-    executor:
-      - zang-dongkun
+    executor: []
     steps:
       - step: build@nodejs
         name: build_nodejs
@@ -25,7 +24,6 @@ stages:
           - ''
           - '# 执行编译命令'
           - npm install && npm run docs:build
-          - ''
         artifacts:
           - name: BUILD_ARTIFACT
             path:
