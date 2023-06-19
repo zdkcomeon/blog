@@ -1,4 +1,8 @@
-# idea配置
+---
+title: Idea配置
+author: 困困
+date: '2023-6-12'
+---
 
 :::tip 前言
 以下为个人IDEA配置喜好，仅供参考<br/>

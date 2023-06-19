@@ -1,5 +1,8 @@
-# Git
-
+---
+title: Git配置
+author: 困困
+date: '2023-6-12'
+---
 ## Git优化使用
 ### Idea配置GitBash
 在idea控制台中可以直接使用git Bash，无需进入软件目录使用git.bash，简化流程，提高开发效率

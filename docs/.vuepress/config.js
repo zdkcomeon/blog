@@ -1,9 +1,17 @@
 module.exports = {
+    base: '/blog/',
     title: "HHS",
     description: "分享资源、教程、软件、工具、开发配置",
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
+    locales: {
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/': {
+            lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+        },
+    },
+    theme: 'reco',
     host: 'localhost',
     port: '9090',
     markdown: {
@@ -12,6 +20,7 @@ module.exports = {
     themeConfig: {
         // 设置自动生成侧边栏
         sidebar: 'auto',
+        subSidebar: 'auto',
         // 设置导航栏
         nav: [
             { text: "首页", link: "/" },
