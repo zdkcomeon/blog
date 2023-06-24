@@ -1,7 +1,7 @@
 module.exports = {
     base: '/blog/',
     title: "HHS",
-    description: "分享资源、教程、软件、工具、开发配置",
+    description: "资源、教程、软件、工具、配置",
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
@@ -12,12 +12,58 @@ module.exports = {
         },
     },
     theme: 'reco',
+    themeConfig: {
+        // 博客配置
+        blogConfig: {
+            category: {
+                location: 2,     // 在导航栏菜单中所占的位置，默认2
+                text: 'Category' // 默认文案 “分类”
+            },
+            tag: {
+                location: 3,     // 在导航栏菜单中所占的位置，默认3
+                text: 'Tag'      // 默认文案 “标签”
+            },
+            socialLinks: [     // 信息栏展示社交信息
+                { icon: 'reco-github', link: 'https://github.com/recoluan' },
+                { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+            ]
+        }
+    },
     host: 'localhost',
     port: '9090',
     markdown: {
         lineNumbers: true,
     },
+    plugins: [
+        [
+            "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+            {
+                theme: ["koharu"],
+                clean: true,
+                modelStyle: {
+                    position: "fixed",
+                    left: "0px",
+                    bottom: "0px",
+                    opacity: "0.9",
+                    zIndex: 99999
+                }
+            }
+        ]
+    ],
     themeConfig: {
+        // reco 博客模式
+        type: 'blog',
+        // author
+        author: '谦毅',
+        huawei: true,
+        // blog 头像地址
+        authorAvatar: '/logo.png',
+        // 密钥
+        keyPage: {
+            keys: ['de24428d9d10ecc445fd07f4000e4eda'], // 1.3.0 版本后需要设置为密文
+            color: '#42b983', // 登录页动画球的颜色
+            lineColor: '#42b983' // 登录页动画线的颜色
+        },
         // 设置自动生成侧边栏
         sidebar: 'auto',
         subSidebar: 'auto',

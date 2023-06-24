@@ -1,20 +1,16 @@
 ---
 home: true
+# heroImage: /hero.jpg
+bgImage: '/hero.jpg'
+bgImageStyle: {
+  height: '350px'
+}
 heroText: 节节高
-tagline: 软件开发心得
-actionText: 查看资源 →
-actionLink: /softwareInstallation/
-features:
-- title: 网盘资源
-  details: 所有网盘资源均来自互联网，本网站不生产任何网盘资源，网盘资源是否失效需要自行判断。
-- title: 软件
-  details: 主要分享一些实用性的工具类、影视类、音乐类等等各种软件，均由互联网大佬提供。
-- title: 教程
-  details: 分享各类教程，包括编程，本网站所有教程资源均来自互联网，若涉及侵权立马删除！
-footer: 科技趣玩 | 资料分享大师
+heroImageStyle: {
+  maxHeight: '200px',
+  display: block,
+  margin: '6rem auto 1.5rem',
+  borderRadius: '50%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+}
 ---
-
-目标
-
-- [ ] Java
-- [x] Mysql
