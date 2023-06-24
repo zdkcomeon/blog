@@ -1,5 +1,5 @@
 ---
-title: 【vue】跨域解决方案之proxyTable
+title: Git 安装
 date: 2023-6-24
 categories:
  - 软件安装
