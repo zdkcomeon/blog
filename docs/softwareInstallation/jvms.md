@@ -1,3 +1,11 @@
+---
+title: Jvms
+date: '2023-6-24'
+categories:
+ - Java
+tags:
+ - 软件安装
+---
 # Jvms 
 ::: tip 前言
 git可以管理项目版本，nvm可以管理node版本，对应到jdk中有 **Jvms（Java version manage system）** 管理Jdk的版本，Jvms会自动管理系统的Jdk版本，安装指定的JDK版本，同时可以自由切换系统JDK版本，环境变量也会自动切换。<br/>

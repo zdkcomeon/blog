@@ -1,7 +1,10 @@
 ---
 title: Git配置
-author: 困困
 date: '2023-6-12'
+categories:
+ - git
+tags:
+ - 软件配置
 ---
 ## Git优化使用
 ### Idea配置GitBash

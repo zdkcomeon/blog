@@ -1,3 +1,11 @@
+---
+title: JetBrains ToolBox
+date: '2023-6-24'
+categories:
+ - JetBrains
+tags:
+ - 软件安装
+---
 # JetBrains ToolBox
 
 ::: tip 轻松管理你的IDE

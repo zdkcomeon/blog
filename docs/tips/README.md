@@ -1,3 +1,13 @@
+---
+title: 技巧，效率，心得
+date: '2023-6-24'
+categories:
+ - 技术分享
+tags:
+ - Java
+ - JSON
+ - Spring
+---
 # 技巧，效率，心得
 ::: tip 前言
 Java8引入的lamda表达式，完善了Java的函数式编程，在日常编码中可以善用Java的lamda表达式优化代码，提高可读性。<br/>

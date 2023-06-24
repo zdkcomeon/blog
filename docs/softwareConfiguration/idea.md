@@ -1,7 +1,10 @@
 ---
 title: Idea配置
-author: 困困
-date: '2023-6-12'
+date: '2023-6-24'
+categories:
+ - JetBrains
+tags:
+ - 软件配置
 ---
 
 :::tip 前言
