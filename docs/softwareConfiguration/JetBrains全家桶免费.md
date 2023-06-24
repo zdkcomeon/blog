@@ -1,3 +1,11 @@
+---
+title: JetBrains全家桶免费方案
+date: '2023-6-24'
+categories:
+ - JetBrains
+tags:
+ - 软件配置
+---
 # JetBrains全家桶免费方案
 ::: tip 借鉴
 学习使用<br/>

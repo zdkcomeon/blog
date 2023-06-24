@@ -1,3 +1,13 @@
+---
+title: node版本管理工具
+date: '2023-6-24'
+categories:
+ - node
+tags:
+ - 软件安装
+ - 版本控制
+---
+
 # node版本管理工具
 
 ::: tip 说在前面
