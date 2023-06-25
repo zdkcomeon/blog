@@ -144,7 +144,13 @@ module.exports = {
                     }
                 ]
             },
-            { text: "技巧积攒", link: "/tips/" },
+            {
+                text: "总结与分享",
+                items: [
+                    { text: "技巧积攒", link: "/tips/技巧积攒" },
+                    { text: "单元测试", link: "/tips/unitTest" }
+                ]
+            },
             { text: "孤独程序员食谱", link: "/cookbook/" },
             { text: "关于我", link: "https://blog.isww.cn/" }
         ]
