@@ -1,6 +1,6 @@
 ---
 title: Git配置
-date: '2023-6-12'
+date: 2023-6-12
 categories:
  - git
 tags:

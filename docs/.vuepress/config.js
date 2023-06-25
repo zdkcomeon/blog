@@ -152,6 +152,7 @@ module.exports = {
                 ]
             },
             { text: "孤独程序员食谱", link: "/cookbook/" },
+            { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
             { text: "关于我", link: "https://blog.isww.cn/" }
         ]
     },
