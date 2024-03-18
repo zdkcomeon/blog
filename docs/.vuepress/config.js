@@ -148,7 +148,8 @@ module.exports = {
                 text: "总结与分享",
                 items: [
                     { text: "技巧积攒", link: "/tips/技巧积攒" },
-                    { text: "单元测试", link: "/tips/unitTest" }
+                    { text: "单元测试", link: "/tips/unitTest" },
+                    { text: "记一次openFeign的定制化使用", link: "/tips/记一次openFeign定制化使用" }
                 ]
             },
             { text: "孤独程序员食谱", link: "/cookbook/" },
