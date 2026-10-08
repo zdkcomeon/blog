@@ -1,6 +1,6 @@
 ---
 title: 实践笔记
-description: 按编码、测试和服务调用整理项目实践笔记。
+description: 按编码、测试、服务调用和故障排查整理项目实践笔记。
 category:
 - 实践笔记
 tag:
@@ -9,13 +9,14 @@ article: false
 pageInfo: false
 ---
 
-从日常代码、测试与服务集成三个方向整理项目中的经验。
+从日常代码、测试、服务集成与故障排查四个方向整理项目中的经验。
 
 | 方向 | 笔记 | 主要主题 |
 | --- | --- | --- |
 | 日常编码 | [Java 与 Spring 编码技巧](./技巧积攒.md) | 函数式代码、JSON、Redisson 与依赖注入 |
 | 测试 | [单元测试](./unitTest.md) | Controller、Service、Mapper 与 Mockito |
 | 服务调用 | [OpenFeign 定制配置](./记一次openFeign定制化使用.md) | 第三方接口、客户端配置、代理与授权 |
+| 故障排查 | [Kafka StringSerializer 类加载调查](./kafka-string-serializer.md) | 公共线程池、延迟初始化、TCCL 与修复边界 |
 
 这些笔记包含实践思路和待完善的章节，按文章日期保留原有记录。
 

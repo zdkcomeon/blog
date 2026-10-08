@@ -69,6 +69,7 @@ export const sidebar = {
     { text: "Java 与 Spring 编码技巧", link: "/tips/技巧积攒.html" },
     { text: "单元测试", link: "/tips/unitTest.html" },
     { text: "OpenFeign 定制配置", link: "/tips/记一次openFeign定制化使用.html" },
+    { text: "Kafka 类加载故障调查", link: "/tips/kafka-string-serializer.html" },
   ],
   "/guide/": [
     { text: "文档地图", link: "/guide/" },
