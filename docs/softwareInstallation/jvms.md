@@ -1,12 +1,15 @@
 ---
-title: Jvms
+title: JVMS：JDK 版本管理
+description: JVMS 下载与参考教程，用于管理和切换本地 JDK 版本。
 date: 2023-06-24
 category:
- - Java
+- 开发工具
 tag:
- - 软件安装
+- Java
+- JDK
+- 版本管理
 ---
-# Jvms 
+
 ::: tip 前言
 git可以管理项目版本，nvm可以管理node版本，对应到jdk中有 **Jvms（Java version manage system）** 管理Jdk的版本，Jvms会自动管理系统的Jdk版本，安装指定的JDK版本，同时可以自由切换系统JDK版本，环境变量也会自动切换。<br/>
 **题外话** <br/>

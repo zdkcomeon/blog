@@ -1,14 +1,15 @@
 ---
 title: Git 安装
+description: Git 下载与安装入口，完成安装后可继续查看配置笔记。
 date: 2023-06-24
 category:
- - 软件安装
+- 开发工具
 tag:
- - git
- - 开发工具
+- Git
+- 版本控制
+- 安装指南
 ---
 
-# Git 安装
 ::: tip git安装
 网盘有安装包以及安装教程
 :::

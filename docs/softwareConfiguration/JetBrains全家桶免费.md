@@ -1,12 +1,14 @@
 ---
-title: JetBrains全家桶免费方案
+title: JetBrains 免费方案记录
+description: 保留 2023 年的 JetBrains 工具使用方案与参考链接。
 date: 2023-06-24
 category:
- - JetBrains
+- 开发工具
 tag:
- - 软件配置
+- JetBrains
+- 配置指南
 ---
-# JetBrains全家桶免费方案
+
 ::: tip 借鉴
 学习使用<br/>
 分为两个阶段，最稳定的方案

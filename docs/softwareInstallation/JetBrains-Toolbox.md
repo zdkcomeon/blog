@@ -1,12 +1,13 @@
 ---
-title: JetBrains ToolBox
+title: JetBrains Toolbox 安装
+description: 使用 JetBrains Toolbox 管理 IDE 安装、更新与版本切换。
 date: 2023-06-24
 category:
- - JetBrains
+- 开发工具
 tag:
- - 软件安装
+- JetBrains
+- 安装指南
 ---
-# JetBrains ToolBox
 
 ::: tip 轻松管理你的IDE
 

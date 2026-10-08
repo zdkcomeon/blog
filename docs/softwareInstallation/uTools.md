@@ -1,11 +1,21 @@
-# 开发利器 uTools
+---
+title: uTools：快捷工具箱
+description: uTools 官方入口，用快捷搜索和插件集中处理日常小任务。
+category:
+- 开发工具
+tag:
+- uTools
+- 效率工具
+---
 
-## 介绍
-官网直达
-下载直达
+uTools 用快捷搜索和插件集中处理日常小任务，按需要安装插件即可。
 
-## 使用
+## 官方入口
 
-## 推荐插件
+- [uTools 官网与下载](https://www.u-tools.cn/)
 
-## 优化配置
+## 搭配使用
+
+- [Snipaste](./snipaste.md)：截图与贴图。
+- [draw.io](./draw-io.md)：图表绘制。
+- [Trello](./trello.md)：任务与进度管理。

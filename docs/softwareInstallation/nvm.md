@@ -1,14 +1,14 @@
 ---
-title: node版本管理工具
+title: NVM：Node.js 版本管理
+description: Windows 下 NVM 安装、常用命令、下载镜像与项目版本配置。
 date: 2023-06-24
 category:
- - node
+- 开发工具
 tag:
- - 软件安装
- - 版本控制
+- Node.js
+- NVM
+- 版本管理
 ---
-
-# node版本管理工具
 
 ::: tip 说在前面
 - 用了都说好，真舒服，再也不用被node版本，node-saas，saas-loader这个几个sb玩意给版本恶心了。

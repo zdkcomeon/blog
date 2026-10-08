@@ -1,10 +1,13 @@
 ---
-title: Idea配置
+title: IntelliJ IDEA 配置
+description: 个人 IDEA 界面、插件和编辑器使用习惯，基于 2022.3.2 的记录。
 date: 2023-06-24
 category:
- - JetBrains
+- 开发工具
 tag:
- - 软件配置
+- IntelliJ IDEA
+- JetBrains
+- 配置指南
 ---
 
 :::tip 前言

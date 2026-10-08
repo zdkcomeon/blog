@@ -1,10 +1,13 @@
 ---
-title: Git配置
+title: Git 配置与使用
+description: 记录 IntelliJ IDEA 中的 Git Bash 配置及常用 Git 操作方向。
 date: 2023-06-12
 category:
- - git
+- 开发工具
 tag:
- - 软件配置
+- Git
+- 版本控制
+- 配置指南
 ---
 ## Git优化使用
 ### Idea配置GitBash

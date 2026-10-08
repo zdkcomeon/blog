@@ -1,10 +1,13 @@
 ---
 title: 单元测试
+description: 整理 Controller、Service、Mapper 测试的思考和 Mockito 参考资料。
 date: 2023-06-25
 category:
- - 技术分享
+- 实践笔记
 tag:
- - Java
+- Java
+- 单元测试
+- Mockito
 ---
 
 :::tip 为何有此篇

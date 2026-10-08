@@ -1,0 +1,20 @@
+// 保留首页背景，让专题入口和文章列表更早出现在首屏。
+.vp-blog-hero {
+  height: 320px;
+
+  .vp-blog-mask::after {
+    background: rgba(18, 35, 31, 0.28);
+  }
+
+  .vp-blog-hero-description {
+    margin-top: 0.75rem;
+    font-size: 1.1rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 719px) {
+  .vp-blog-hero {
+    height: 280px;
+  }
+}
