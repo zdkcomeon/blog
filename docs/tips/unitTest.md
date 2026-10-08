@@ -1,9 +1,9 @@
 ---
 title: 单元测试
-date: '2023-6-25'
-categories:
+date: 2023-06-25
+category:
  - 技术分享
-tags:
+tag:
  - Java
 ---
 

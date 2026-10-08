@@ -1,9 +1,9 @@
 ---
 title: Git配置
-date: 2023-6-12
-categories:
+date: 2023-06-12
+category:
  - git
-tags:
+tag:
  - 软件配置
 ---
 ## Git优化使用

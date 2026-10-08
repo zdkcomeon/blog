@@ -1,9 +1,9 @@
 ---
 title: 记一次openFeign的定制化配置
-date: '2024-03-18'
-categories:
+date: 2024-03-18
+category:
  - 技术分享
-tags:
+tag:
  - Java
  - Feign
  - Rpc

@@ -1,9 +1,9 @@
 ---
 title: node版本管理工具
-date: '2023-6-24'
-categories:
+date: 2023-06-24
+category:
  - node
-tags:
+tag:
  - 软件安装
  - 版本控制
 ---

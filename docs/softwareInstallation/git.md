@@ -1,9 +1,9 @@
 ---
 title: Git 安装
-date: 2023-6-24
-categories:
+date: 2023-06-24
+category:
  - 软件安装
-tags:
+tag:
  - git
  - 开发工具
 ---

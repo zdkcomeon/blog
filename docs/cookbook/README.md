@@ -1,9 +1,9 @@
 ---
 title: 菜谱
-date: 2023-6-24
-categories:
+date: 2023-06-24
+category:
  - 饮食
-tags:
+tag:
  - 菜谱
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Idea配置
-date: '2023-6-24'
-categories:
+date: 2023-06-24
+category:
  - JetBrains
-tags:
+tag:
  - 软件配置
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: JetBrains ToolBox
-date: '2023-6-24'
-categories:
+date: 2023-06-24
+category:
  - JetBrains
-tags:
+tag:
  - 软件安装
 ---
 # JetBrains ToolBox
