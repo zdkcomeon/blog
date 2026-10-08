@@ -22,4 +22,4 @@ pageInfo: false
 
 - [MySQL 学习资料](../../mysql/八股文.md)
 - [Spring 学习入口](../Spring/)
-- [单元测试](../../../tips/unitTest.md)：包含 Mapper 层测试的整理方向。
+- [单元测试](../../../tips/unitTest.md)：使用 MyBatis 测试切片和测试数据库验证真实 SQL、结果映射与唯一约束。

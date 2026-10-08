@@ -68,8 +68,8 @@ pageInfo: false
 | --- | --- |
 | [实践笔记](../tips/README.md) | 按编码、测试、服务调用和故障排查整理项目实践笔记。 |
 | [Java 与 Spring 编码技巧](../tips/技巧积攒.md) | 收集函数式异常处理、JSON 操作、Redisson 锁封装和 Spring 注入实践。 |
-| [单元测试](../tips/unitTest.md) | 整理 Controller、Service、Mapper 测试的思考和 Mockito 参考资料。 |
-| [OpenFeign 定制配置](../tips/记一次openFeign定制化使用.md) | 记录第三方接口接入时，OpenFeign 客户端、代理与授权请求头的配置需求。 |
+| [单元测试](../tips/unitTest.md) | 用 JUnit 5、Mockito、MockMvc 和 MyBatis 测试切片验证 Controller、Service、Mapper，覆盖正常、异常、边界与静态方法场景。 |
+| [OpenFeign 定制配置](../tips/记一次openFeign定制化使用.md) | 使用 Apache HttpClient 5 为第三方 OpenFeign 接口隔离连接池、代理、授权、超时与重试配置，并验证内部客户端不受影响。 |
 | [Kafka StringSerializer 类加载调查](../tips/kafka-string-serializer.md) | 排查公共线程池首次发送消息时的序列化类加载失败，分析延迟初始化与 TCCL。 |
 
 ## 生活与归档

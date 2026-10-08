@@ -14,10 +14,10 @@ pageInfo: false
 | 方向 | 笔记 | 主要主题 |
 | --- | --- | --- |
 | 日常编码 | [Java 与 Spring 编码技巧](./技巧积攒.md) | 函数式代码、JSON、Redisson 与依赖注入 |
-| 测试 | [单元测试](./unitTest.md) | Controller、Service、Mapper 与 Mockito |
-| 服务调用 | [OpenFeign 定制配置](./记一次openFeign定制化使用.md) | 第三方接口、客户端配置、代理与授权 |
+| 测试 | [单元测试](./unitTest.md) | JUnit 5、Mockito、MockMvc、真实 SQL 与异常边界 |
+| 服务调用 | [OpenFeign 定制配置](./记一次openFeign定制化使用.md) | HC5 客户端隔离、连接池、代理、授权与超时验证 |
 | 故障排查 | [Kafka StringSerializer 类加载调查](./kafka-string-serializer.md) | 公共线程池、延迟初始化、TCCL 与修复边界 |
 
-这些笔记包含实践思路和待完善的章节，按文章日期保留原有记录。
+测试与服务调用笔记包含配置步骤、代码示例和验证清单；文章保留原有发布日期。
 
 需要补充原理时，查看 [学习资源](../learningResource/)；需要准备环境时，查看 [开发工具](../softwareInstallation/)。
