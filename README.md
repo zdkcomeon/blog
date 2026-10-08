@@ -19,6 +19,8 @@ npm run docs:build
 
 静态产物位于 `docs/.vuepress/dist`，供 GitHub Pages 使用。仓库中的两套构建配置均使用新版 Node 和 `npm ci`；请保留并提交 `package-lock.json`。
 
+GitHub 部署工作流使用自动生成的 `GITHUB_TOKEN` 和 `contents: write` 权限，将静态产物推送到 `gh-pages` 分支。GitHub Pages 的发布来源应设置为该分支的根目录。
+
 ## 站点配置
 
 - 配置入口：`docs/.vuepress/config.js`，使用 ESM、Vite 和 Hope 主题。
