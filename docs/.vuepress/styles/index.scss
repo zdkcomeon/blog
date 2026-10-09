@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Tsanger JinKai 02";
+  src: url("/fonts/tsanger-jinkai-02-w04.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --vp-font: "Tsanger JinKai 02", sans-serif;
+  --vp-font-heading: var(--vp-font);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--vp-font);
+}
+
 // 保留首页背景，让专题入口和文章列表更早出现在首屏。
 .vp-blog-hero {
   height: 320px;
