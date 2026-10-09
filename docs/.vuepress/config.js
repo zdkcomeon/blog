@@ -7,7 +7,7 @@ import { sidebar } from "./sidebar.js";
 export default defineUserConfig({
   base: "/blog/",
   lang: "zh-CN",
-  title: "HHS",
+  title: "可爱团子随记",
   description: "Java 学习资源、开发工具配置与工程实践笔记",
   head: [["link", { rel: "icon", href: "/blog/logo.png" }]],
   host: "127.0.0.1",

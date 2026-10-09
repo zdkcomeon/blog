@@ -39,9 +39,9 @@ export const navbar = [
     children: [
       { text: "按分类浏览", link: "/category/" },
       { text: "按标签查找", link: "/tag/" },
-      { text: "时间线", link: "/timeline/" },
       { text: "生活食谱", link: "/cookbook/" },
-      { text: "关于作者", link: "https://blog.isww.cn/" },
     ],
   },
+  { text: "时间线", link: "/timeline/" },
+  { text: "关于作者", link: "https://blog.isww.cn/" },
 ];

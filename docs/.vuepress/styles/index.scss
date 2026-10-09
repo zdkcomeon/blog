@@ -37,6 +37,23 @@ textarea {
   border-radius: 16px;
 }
 
+.vp-nav-logo {
+  border-radius: 8px;
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+  .vp-nav-links {
+    .vp-nav-item {
+      margin-inline: 0.125rem;
+    }
+
+    .vp-nav-item > .auto-link,
+    .vp-dropdown-title {
+      padding-inline: 0.125rem;
+    }
+  }
+}
+
 @media (max-width: 719px) {
   .vp-blog-hero {
     height: 280px;
