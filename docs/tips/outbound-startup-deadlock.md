@@ -1,5 +1,6 @@
 ---
 title: 调查报告：Dev2 环境 EKS 升级后 Outbound 服务启动异常
+star: true
 description: 结合 jstack 分析 Outbound 启动死锁，确认 Spring 单例注册表锁与 Prometheus 跟踪懒加载锁的反向获取，说明初始化时序及两种修复方案。
 date: 2026-10-09
 category:

@@ -1,5 +1,6 @@
 ---
 title: 调查报告：Kafka 发送消息 Not found StringSerializer 问题
+star: true
 description: 排查 parallelStream 首次发送 Kafka 消息时的 StringSerializer 类加载失败，分析公共线程池、延迟初始化与线程上下文类加载器的关系。
 date: 2026-10-08
 category:

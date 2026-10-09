@@ -1,5 +1,6 @@
 ---
 title: 调查报告：Test2 环境 EKS 升级后 Notice 服务启动异常
+star: true
 description: 排查 Notice 启动时的 BeanCurrentlyInCreationException，分析消费者与生产者依赖环、Async 代理与早期原始引用不一致，以及注入点懒加载修复。
 date: 2026-10-09
 category:

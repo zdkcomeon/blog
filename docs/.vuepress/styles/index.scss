@@ -23,7 +23,13 @@ textarea {
   height: 320px;
 
   .vp-blog-mask::after {
-    background: rgba(18, 35, 31, 0.28);
+    background: linear-gradient(
+      180deg,
+      var(--vp-c-bg),
+      transparent 16%,
+      transparent 84%,
+      var(--vp-c-bg)
+    );
   }
 
   .vp-blog-hero-description {
@@ -56,6 +62,7 @@ textarea {
 
 @media (max-width: 719px) {
   .vp-blog-hero {
+    --hero-background-position: 28% center;
     height: 280px;
   }
 }

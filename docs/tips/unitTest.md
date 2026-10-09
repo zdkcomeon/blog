@@ -1,5 +1,6 @@
 ---
 title: 单元测试
+star: true
 description: 用 JUnit 5、Mockito、MockMvc 和 MyBatis 测试切片验证 Controller、Service、Mapper，覆盖正常、异常、边界与静态方法场景。
 date: 2023-06-25
 category:

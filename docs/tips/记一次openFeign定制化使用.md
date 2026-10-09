@@ -1,5 +1,6 @@
 ---
 title: OpenFeign 定制配置
+star: true
 description: 使用 Apache HttpClient 5 为第三方 OpenFeign 接口隔离连接池、代理、授权、超时与重试配置，并验证内部客户端不受影响。
 date: 2024-03-18
 category:
