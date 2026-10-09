@@ -6,9 +6,12 @@ description: Java 学习资源、开发工具配置与工程实践笔记。
 article: false
 heroImage: /logo.png
 heroAlt: 节节高
-bgImage: '/hero-warm-desk.png'
+bgImage: '/hero-day-desk.png'
+bgImageDark: '/hero-warm-desk.png'
 bgImageStyle:
-  backgroundPosition: 'var(--hero-background-position, center)'
+  backgroundAttachment: 'fixed'
+  backgroundSize: 'auto var(--hero-background-height)'
+  backgroundPosition: 'var(--hero-background-position, center) var(--hero-background-top)'
 heroText: 节节高
 tagline: 学基础 · 配环境 · 记实践
 heroFullScreen: false

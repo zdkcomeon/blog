@@ -20,7 +20,15 @@ textarea {
 
 // 保留首页背景，让专题入口和文章列表更早出现在首屏。
 .vp-blog-hero {
-  height: 320px;
+  --hero-height: 320px;
+  // 固定背景按横幅尺寸裁切，避免 cover 将图片放大到整个视口。
+  --hero-background-height: max(var(--hero-height), calc(100vw * 732 / 2148));
+  --hero-background-top: calc(
+    var(--navbar-height) + (var(--hero-height) - var(--hero-background-height)) / 2
+  );
+
+  height: var(--hero-height);
+  color: var(--vp-c-text);
 
   .vp-blog-mask::after {
     background: linear-gradient(
@@ -35,7 +43,11 @@ textarea {
   .vp-blog-hero-description {
     margin-top: 0.75rem;
     font-size: 1.1rem;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.6);
+
+    [data-theme="dark"] & {
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
   }
 }
 
@@ -62,7 +74,7 @@ textarea {
 
 @media (max-width: 719px) {
   .vp-blog-hero {
-    --hero-background-position: 28% center;
-    height: 280px;
+    --hero-background-position: 28%;
+    --hero-height: 280px;
   }
 }
