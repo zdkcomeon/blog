@@ -30,6 +30,7 @@ export const navbar = [
       { text: "OpenFeign 定制配置", link: "/tips/记一次openFeign定制化使用.html" },
       { text: "Kafka 类加载故障调查", link: "/tips/kafka-string-serializer.html" },
       { text: "Outbound 启动死锁调查", link: "/tips/outbound-startup-deadlock.html" },
+      { text: "Notice 启动循环依赖调查", link: "/tips/notice-startup-circular-dependency.html" },
     ],
   },
   { text: "文档地图", link: "/guide/" },

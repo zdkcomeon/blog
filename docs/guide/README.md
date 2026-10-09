@@ -72,6 +72,7 @@ pageInfo: false
 | [OpenFeign 定制配置](../tips/记一次openFeign定制化使用.md) | 使用 Apache HttpClient 5 为第三方 OpenFeign 接口隔离连接池、代理、授权、超时与重试配置，并验证内部客户端不受影响。 |
 | [Kafka StringSerializer 类加载调查](../tips/kafka-string-serializer.md) | 排查公共线程池首次发送消息时的序列化类加载失败，分析延迟初始化与 TCCL。 |
 | [Outbound 启动死锁调查](../tips/outbound-startup-deadlock.md) | 结合 jstack 确认 Spring 注册表锁与 Prometheus 跟踪懒加载锁的死锁，分析触发时序与修复方案。 |
+| [Notice 启动循环依赖调查](../tips/notice-startup-circular-dependency.md) | 分析 Test2 的 BeanCurrentlyInCreationException、Async 代理与早期引用不一致，记录懒加载修复和横向审查。 |
 
 ## 生活与归档
 

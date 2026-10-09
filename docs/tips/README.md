@@ -18,6 +18,7 @@ pageInfo: false
 | 服务调用 | [OpenFeign 定制配置](./记一次openFeign定制化使用.md) | HC5 客户端隔离、连接池、代理、授权与超时验证 |
 | 故障排查 | [Kafka StringSerializer 类加载调查](./kafka-string-serializer.md) | 公共线程池、延迟初始化、TCCL 与修复边界 |
 | 故障排查 | [Outbound 启动死锁调查](./outbound-startup-deadlock.md) | jstack 证据、Spring 注册表锁、监控懒加载与修复方案 |
+| 故障排查 | [Notice 启动循环依赖调查](./notice-startup-circular-dependency.md) | 消费者与生产者依赖环、Async 代理、早期引用与注入点懒加载 |
 
 测试与服务调用笔记包含配置步骤、代码示例和验证清单；文章保留原有发布日期。
 
