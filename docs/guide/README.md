@@ -87,4 +87,4 @@ pageInfo: false
 
 | 文档 | 内容 |
 | --- | --- |
-| [关于作者](../about/README.md) | 介绍满觉陇的昵称、头像、技术栈、能力与擅长方向，以及 init-workspace、FindAnyThingsInFiles、技术博客和工程实践文档。 |
+| [关于作者](../about/README.md) | 满觉陇的开发经验、匿名职业成长时间线与开源作品。 |
