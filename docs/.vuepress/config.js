@@ -38,7 +38,7 @@ export default defineUserConfig({
   }),
   theme: hopeTheme({
     hostname: "https://zdkcomeon.github.io",
-    author: "谦毅",
+    author: "满觉陇",
     logo: "/logo.png",
     repo: "zdkcomeon/blog",
     docsDir: "docs",
@@ -46,7 +46,7 @@ export default defineUserConfig({
     sidebar,
     pageInfo: ["Date", "Category", "Tag", "ReadingTime"],
     blog: {
-      name: "谦毅",
+      name: "满觉陇",
       avatar: "/logo.png",
       description: "Java 学习资源、开发工具配置与工程实践笔记",
       timeline: "时间线",
