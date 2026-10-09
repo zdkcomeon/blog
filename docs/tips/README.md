@@ -1,6 +1,6 @@
 ---
 title: 实践笔记
-description: 按编码、测试、服务调用和故障排查整理项目实践笔记。
+description: 按指令速查、编码、测试、服务调用、性能优化和故障排查整理项目实践笔记。
 category:
 - 实践笔记
 tag:
@@ -9,7 +9,7 @@ article: false
 pageInfo: false
 ---
 
-从日常代码、测试、服务集成与故障排查四个方向整理项目中的经验。
+从指令速查、日常代码、测试、服务集成、性能优化与故障排查六个方向整理项目中的经验。
 
 | 方向 | 笔记 | 主要主题 |
 | --- | --- | --- |
@@ -20,6 +20,7 @@ pageInfo: false
 | 故障排查 | [Kafka StringSerializer 类加载调查](./kafka-string-serializer.md) | 公共线程池、延迟初始化、TCCL 与修复边界 |
 | 故障排查 | [Outbound 启动死锁调查](./outbound-startup-deadlock.md) | jstack 证据、Spring 注册表锁、监控懒加载与修复方案 |
 | 故障排查 | [Notice 启动循环依赖调查](./notice-startup-circular-dependency.md) | 消费者与生产者依赖环、Async 代理、早期引用与注入点懒加载 |
+| 性能优化 | [出单慢问题调查与优化分享](./policy-issuance-performance.md) | 分阶段日志、Arthas trace、SQL 次数分析、配置缓存与 PT 验证 |
 
 测试与服务调用笔记包含配置步骤、代码示例和验证清单；文章保留原有发布日期。
 

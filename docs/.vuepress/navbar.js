@@ -32,6 +32,7 @@ export const navbar = [
       { text: "Kafka 类加载故障调查", link: "/tips/kafka-string-serializer.html" },
       { text: "Outbound 启动死锁调查", link: "/tips/outbound-startup-deadlock.html" },
       { text: "Notice 启动循环依赖调查", link: "/tips/notice-startup-circular-dependency.html" },
+      { text: "出单慢调查与优化", link: "/tips/policy-issuance-performance.html" },
     ],
   },
   { text: "文档地图", link: "/guide/" },

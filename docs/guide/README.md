@@ -66,7 +66,7 @@ pageInfo: false
 
 | 文档 | 内容 |
 | --- | --- |
-| [实践笔记](../tips/README.md) | 按编码、测试、服务调用和故障排查整理项目实践笔记。 |
+| [实践笔记](../tips/README.md) | 按指令速查、编码、测试、服务调用、性能优化和故障排查整理项目实践笔记。 |
 | [常用中间件指令](../tips/middleware-commands.md) | Arthas 启动、类加载器排查、方法耗时分析、Java Agent 启动与 Git 提交整理和贮存命令。 |
 | [Java 与 Spring 编码技巧](../tips/技巧积攒.md) | 收集函数式异常处理、JSON 操作、Redisson 锁封装和 Spring 注入实践。 |
 | [单元测试](../tips/unitTest.md) | 用 JUnit 5、Mockito、MockMvc 和 MyBatis 测试切片验证 Controller、Service、Mapper，覆盖正常、异常、边界与静态方法场景。 |
@@ -74,6 +74,7 @@ pageInfo: false
 | [Kafka StringSerializer 类加载调查](../tips/kafka-string-serializer.md) | 排查公共线程池首次发送消息时的序列化类加载失败，分析延迟初始化与 TCCL。 |
 | [Outbound 启动死锁调查](../tips/outbound-startup-deadlock.md) | 结合 jstack 确认 Spring 注册表锁与 Prometheus 跟踪懒加载锁的死锁，分析触发时序与修复方案。 |
 | [Notice 启动循环依赖调查](../tips/notice-startup-circular-dependency.md) | 分析 Test2 的 BeanCurrentlyInCreationException、Async 代理与早期引用不一致，记录懒加载修复和横向审查。 |
+| [出单慢问题调查与优化分享](../tips/policy-issuance-performance.md) | 通过日志、Arthas 和 SQL 次数定位商品配置查询与缓存失效，记录两阶段优化及 PT 验证证据。 |
 
 ## 生活与归档
 
