@@ -48,6 +48,7 @@ export default defineUserConfig({
     blog: {
       name: "满觉陇",
       avatar: "/logo.png",
+      intro: "/about/",
       description: "Java 学习资源、开发工具配置与工程实践笔记",
       timeline: "时间线",
     },

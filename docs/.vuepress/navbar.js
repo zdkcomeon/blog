@@ -45,5 +45,5 @@ export const navbar = [
     ],
   },
   { text: "时间线", link: "/timeline/" },
-  { text: "关于作者", link: "https://blog.isww.cn/" },
+  { text: "关于作者", link: "/about/" },
 ];

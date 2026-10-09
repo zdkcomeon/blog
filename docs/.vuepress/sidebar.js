@@ -81,6 +81,7 @@ export const sidebar = {
     { text: "开发工具", link: installation },
     { text: "实践笔记", link: "/tips/" },
     { text: "生活食谱", link: "/cookbook/" },
+    { text: "关于作者", link: "/about/" },
   ],
   "/cookbook/": [{ text: "生活食谱", link: "/cookbook/" }],
   // 博客分类、标签和时间线使用独立布局，不显示文档侧边栏。

@@ -82,3 +82,9 @@ pageInfo: false
 | --- | --- |
 | [一个人的生活食谱](../cookbook/README.md) | 整理适合一个人的家常菜、外卖和聚餐选择。 |
 | [时间线入口](../timeLine/README.md) | 通过新版时间线按日期浏览已有文章。 |
+
+## 关于作者
+
+| 文档 | 内容 |
+| --- | --- |
+| [关于作者](../about/README.md) | 介绍满觉陇的昵称、头像、技术栈、能力与擅长方向，以及 init-workspace、FindAnyThingsInFiles、技术博客和工程实践文档。 |
