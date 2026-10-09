@@ -66,6 +66,7 @@ export const sidebar = {
   ],
   "/tips/": [
     { text: "实践总览", link: "/tips/" },
+    { text: "常用中间件指令", link: "/tips/middleware-commands.html" },
     { text: "Java 与 Spring 编码技巧", link: "/tips/技巧积攒.html" },
     { text: "单元测试", link: "/tips/unitTest.html" },
     { text: "OpenFeign 定制配置", link: "/tips/记一次openFeign定制化使用.html" },

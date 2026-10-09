@@ -67,6 +67,7 @@ pageInfo: false
 | 文档 | 内容 |
 | --- | --- |
 | [实践笔记](../tips/README.md) | 按编码、测试、服务调用和故障排查整理项目实践笔记。 |
+| [常用中间件指令](../tips/middleware-commands.md) | Arthas 启动、类加载器排查、方法耗时分析、Java Agent 启动与 Git 提交整理和贮存命令。 |
 | [Java 与 Spring 编码技巧](../tips/技巧积攒.md) | 收集函数式异常处理、JSON 操作、Redisson 锁封装和 Spring 注入实践。 |
 | [单元测试](../tips/unitTest.md) | 用 JUnit 5、Mockito、MockMvc 和 MyBatis 测试切片验证 Controller、Service、Mapper，覆盖正常、异常、边界与静态方法场景。 |
 | [OpenFeign 定制配置](../tips/记一次openFeign定制化使用.md) | 使用 Apache HttpClient 5 为第三方 OpenFeign 接口隔离连接池、代理、授权、超时与重试配置，并验证内部客户端不受影响。 |

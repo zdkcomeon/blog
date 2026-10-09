@@ -13,6 +13,7 @@ pageInfo: false
 
 | 方向 | 笔记 | 主要主题 |
 | --- | --- | --- |
+| 指令速查 | [常用中间件指令](./middleware-commands.md) | Arthas、类加载器、方法耗时、Java Agent、Git rebase 与 stash |
 | 日常编码 | [Java 与 Spring 编码技巧](./技巧积攒.md) | 函数式代码、JSON、Redisson 与依赖注入 |
 | 测试 | [单元测试](./unitTest.md) | JUnit 5、Mockito、MockMvc、真实 SQL 与异常边界 |
 | 服务调用 | [OpenFeign 定制配置](./记一次openFeign定制化使用.md) | HC5 客户端隔离、连接池、代理、授权与超时验证 |
