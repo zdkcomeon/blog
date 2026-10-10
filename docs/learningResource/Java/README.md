@@ -21,12 +21,13 @@ pageInfo: false
 | --- | --- |
 | [Java 集合与 HashMap](./collections.md) | 整理数组与集合、ArrayList、HashMap、CopyOnWriteArrayList 和集合遍历的复习笔记。 |
 | [Java 类型、字符串与泛型](./language-basics.md) | 整理包装类型、自动拆箱、BigDecimal、字符与数字编码、String 和泛型通配符。 |
-| [Java 并发、锁与 ThreadLocal](./concurrency.md) | 整理指令重排序、ThreadLocal、synchronized、volatile 和 AQS 相关复习笔记。 |
-| [Java 线程池与任务执行](./thread-pools.md) | 整理线程池创建、核心参数、状态、线程数量和 Worker 执行与获取任务的流程。 |
-| [CompletableFuture 异步编排](./completable-future.md) | 整理异步任务提交、完成回调、异常处理、任务依赖和等待机制。 |
+| [Java 并发、锁与 ThreadLocal](./concurrency.md) | 整理线程基础、JMM、ThreadLocal、synchronized、CAS、AQS、锁和线程通信。 |
+| [Java 线程池与任务执行](./thread-pools.md) | 整理线程池创建、任务提交流程、Worker 与 ctl 设计、参数选择和关闭机制。 |
+| [CompletableFuture 异步编排](./completable-future.md) | 整理任务提交、执行线程、回调、异常传播、任务组合与等待机制。 |
 | [Java I/O 与多路复用](./io-models.md) | 整理 Java I/O 流分类、BIO、NIO、AIO 和 I/O 多路复用模型。 |
 | [JVM 内存与垃圾回收](./jvm-memory-gc.md) | 整理运行时内存、对象分配、垃圾回收算法、CMS、GC 触发条件与排查笔记。 |
 | [JVM 类加载与字节码](./class-loading.md) | 整理类加载过程、双亲委派、类隔离、热部署和 Class 文件结构。 |
+| [JVM 运行机制与对象布局](./jvm-internals.md) | 整理 JVM 内存区域、对象创建与布局、垃圾回收、方法调用、类加载和 Lambda 实现。 |
 
 ## 环境与实践
 

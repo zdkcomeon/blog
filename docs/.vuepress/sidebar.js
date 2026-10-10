@@ -27,6 +27,7 @@ export const sidebar = {
       ["Java I/O 与多路复用", "io-models"],
       ["JVM 内存与垃圾回收", "jvm-memory-gc"],
       ["JVM 类加载与字节码", "class-loading"],
+      ["JVM 运行机制与对象布局", "jvm-internals"],
     ]),
     topic("MySQL", "mysql", [
       ["知识梳理与资料", "八股文"],
