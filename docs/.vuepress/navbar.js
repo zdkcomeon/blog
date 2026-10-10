@@ -12,7 +12,7 @@ export const navbar = [
       { text: "Kafka", link: "/learningResource/kafka/" },
       { text: "Elasticsearch", link: "/learningResource/elasticsearch/" },
       { text: "分布式系统", link: "/learningResource/distributed-systems/" },
-      { text: "框架与数据库访问", link: "/learningResource/frameword/" },
+      { text: "框架", link: "/learningResource/frameword/" },
     ],
   },
   {

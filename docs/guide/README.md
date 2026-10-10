@@ -52,7 +52,7 @@ pageInfo: false
 | [操作系统学习资料](../learningResource/os/八股文.md) | 操作系统图解与课程入口，覆盖进程、内存和文件系统。 |
 | [操作系统面试准备](../learningResource/os/面试题.md) | 围绕进程线程、同步、内存管理与 I/O 组织复习。 |
 | [用户空间、Page Cache 与刷盘](../learningResource/os/io-page-cache.md) | 整理用户空间与内核空间、write、fsync，以及 MySQL 和 Redis 的刷盘笔记。 |
-| [框架与数据库访问](../learningResource/frameword/README.md) | Spring、Spring Boot、Spring Cloud 与 MyBatis 的官方资料、主题笔记及本站实践。 |
+| [框架](../learningResource/frameword/README.md) | Spring、Spring Boot、Spring Cloud 与 MyBatis 的官方资料、主题笔记及本站实践。 |
 | [Spring 学习入口](../learningResource/frameword/Spring/README.md) | Spring Framework 官方参考文档及本站依赖注入实践入口。 |
 | [Spring 容器、FactoryBean 与循环依赖](../learningResource/frameword/Spring/container.md) | 整理 BeanFactory、FactoryBean、设计模式、三级缓存和循环依赖。 |
 | [Spring 事务传播与多数据源](../learningResource/frameword/Spring/transactions.md) | 整理 Spring 事务传播机制、多数据源配置和多数据源事务笔记。 |

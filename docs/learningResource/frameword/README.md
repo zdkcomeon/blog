@@ -1,5 +1,5 @@
 ---
-title: 框架与数据库访问
+title: 框架
 description: Spring、Spring Boot、Spring Cloud 与 MyBatis 的官方资料、主题笔记及本站实践。
 category:
 - 学习资源

@@ -23,13 +23,13 @@ pageInfo: false
 | Kafka | 消息存储、可靠性、消费者和集群管理 | [Kafka 专题](./kafka/) |
 | Elasticsearch | 倒排索引资料 | [Elasticsearch 专题](./elasticsearch/) |
 | 分布式系统 | 发布部署、事务、缓存和一致性哈希 | [分布式系统专题](./distributed-systems/) |
-| 框架与数据库访问 | Spring 生态和 MyBatis | [框架专题](./frameword/) |
+| 框架 | Spring 生态和 MyBatis | [框架专题](./frameword/) |
 
 ## 建议阅读顺序
 
 1. 从 [Java 学习资料](./Java/八股文.md) 入手，建立语言与运行时基础。
 2. 补充 [MySQL](./mysql/)、[计算机网络](./computer-networks/) 和 [操作系统](./os/) 知识。
-3. 进入 [Spring 与数据库访问](./frameword/)，结合项目阅读官方文档。
+3. 进入 [框架](./frameword/)，结合项目阅读官方文档。
 4. 补充 [Redis](./redis/)、[Kafka](./kafka/) 和 [分布式系统](./distributed-systems/)，理解存储、消息与一致性。
 5. 用 [实践笔记](../tips/) 中的测试、编码和服务调用记录串联知识。
 

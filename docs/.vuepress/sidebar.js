@@ -76,7 +76,7 @@ export const sidebar = {
       ["分布式系统与高可用", "availability"],
     ]),
     {
-      text: "框架与数据库访问",
+      text: "框架",
       link: `${learning}frameword/`,
       collapsible: true,
       children: [
