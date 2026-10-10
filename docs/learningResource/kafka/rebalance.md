@@ -1,6 +1,7 @@
 ---
 title: Kafka 消费者组与重平衡
 description: 整理 Coordinator、消费者心跳、组状态机、重平衡流程和位移处理。
+date: 2026-03-02
 category:
 - 学习资源
 tag:

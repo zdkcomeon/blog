@@ -1,6 +1,7 @@
 ---
 title: JVM 类加载与字节码
 description: 整理类加载过程、双亲委派、类隔离、热部署和 Class 文件结构。
+date: 2026-07-13
 category:
 - 学习资源
 tag:

@@ -1,6 +1,7 @@
 ---
 title: IntelliJ IDEA 安装
 description: IntelliJ IDEA 官方下载、安装文档及本站配置笔记入口。
+date: 2026-09-21
 category:
 - 开发工具
 tag:

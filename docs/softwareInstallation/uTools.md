@@ -1,6 +1,7 @@
 ---
 title: uTools：快捷工具箱
 description: uTools 官方入口，用快捷搜索和插件集中处理日常小任务。
+date: 2026-08-31
 category:
 - 开发工具
 tag:

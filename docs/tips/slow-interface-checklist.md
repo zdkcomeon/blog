@@ -1,6 +1,7 @@
 ---
 title: 线上接口变慢排查提纲
 description: 保留慢 SQL、中间件和第三方依赖三个方向的线上接口排查提纲。
+date: 2026-07-20
 category:
 - 实践笔记
 tag:

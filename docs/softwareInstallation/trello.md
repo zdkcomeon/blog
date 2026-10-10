@@ -1,6 +1,7 @@
 ---
 title: Trello：任务看板
 description: Trello 官方入口和使用帮助，用看板整理任务与工作进度。
+date: 2026-09-07
 category:
 - 开发工具
 tag:

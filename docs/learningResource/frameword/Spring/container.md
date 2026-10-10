@@ -1,6 +1,7 @@
 ---
 title: Spring 容器、FactoryBean 与循环依赖
 description: 整理 BeanFactory、FactoryBean、设计模式、三级缓存和循环依赖。
+date: 2025-11-10
 category:
 - 学习资源
 tag:

@@ -1,6 +1,7 @@
 ---
 title: Spring 事务传播与多数据源
 description: 整理 Spring 事务传播机制、多数据源配置和多数据源事务笔记。
+date: 2025-10-27
 category:
 - 学习资源
 tag:

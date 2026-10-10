@@ -1,6 +1,7 @@
 ---
 title: Kafka 副本、ISR 与高水位
 description: 整理 Kafka 高可用、副本分布、ISR、Leader 选举、HW、LEO 和 Leader Epoch。
+date: 2026-02-16
 category:
 - 学习资源
 tag:

@@ -1,6 +1,7 @@
 ---
 title: CompletableFuture 异步编排
 description: 整理异步任务提交、完成回调、异常处理、任务依赖和等待机制。
+date: 2026-06-29
 category:
 - 学习资源
 tag:

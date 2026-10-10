@@ -1,6 +1,7 @@
 ---
 title: Redis Cluster 与数据分片
 description: 整理哈希槽、请求重定向、扩缩容、故障恢复、数据倾斜和 Gossip 通信开销。
+date: 2026-01-12
 category:
 - 学习资源
 tag:

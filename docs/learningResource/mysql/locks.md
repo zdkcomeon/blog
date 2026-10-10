@@ -1,6 +1,7 @@
 ---
 title: MySQL 锁与加锁规则
 description: 整理全局锁、表级锁、行锁以及不同索引和查询条件下的加锁规则。
+date: 2026-05-04
 category:
 - 学习资源
 tag:

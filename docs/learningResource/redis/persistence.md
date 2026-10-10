@@ -1,6 +1,7 @@
 ---
 title: Redis 持久化与 Fork
 description: 整理 RDB、AOF、写回策略、日志重写、Fork 和混合持久化。
+date: 2025-12-08
 category:
 - 学习资源
 tag:

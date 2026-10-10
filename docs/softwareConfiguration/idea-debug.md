@@ -1,6 +1,7 @@
 ---
 title: IntelliJ IDEA 断点调试
 description: 整理行断点、属性断点、接口断点和异常断点的使用场景。
+date: 2026-08-17
 category:
 - 开发工具
 tag:

@@ -1,6 +1,7 @@
 ---
 title: MySQL 索引原理与优化
 description: 整理索引分类、B+ 树、最左匹配、联合索引、覆盖索引与自适应哈希索引。
+date: 2026-05-11
 category:
 - 学习资源
 tag:

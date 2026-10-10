@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 启动与 Bean 生命周期
 description: 整理 Spring Boot 启动、Bean 定义收集、实例化、属性注入、初始化和销毁。
+date: 2025-11-17
 category:
 - 学习资源
 tag:

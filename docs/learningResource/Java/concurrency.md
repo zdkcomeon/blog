@@ -1,6 +1,7 @@
 ---
 title: Java 并发、锁与 ThreadLocal
 description: 整理指令重排序、ThreadLocal、synchronized、volatile 和 AQS 相关复习笔记。
+date: 2026-06-22
 category:
 - 学习资源
 tag:

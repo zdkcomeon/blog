@@ -1,6 +1,7 @@
 ---
 title: Linux 文件与目录大小查看
 description: 整理 ls 和 du 查看文件、目录大小的常用命令。
+date: 2026-08-10
 category:
 - 开发工具
 tag:

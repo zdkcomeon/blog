@@ -1,6 +1,7 @@
 ---
 title: MySQL SQL 执行与使用技巧
 description: 整理 SQL 执行、COUNT、EXPLAIN、查询优化、深度分页、数据删除与插入技巧。
+date: 2026-04-20
 category:
 - 学习资源
 tag:

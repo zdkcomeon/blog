@@ -1,6 +1,7 @@
 ---
 title: MySQL 日志与两阶段提交
 description: 整理 redo log、binlog、undo log、刷盘策略、主从复制和两阶段提交。
+date: 2026-04-27
 category:
 - 学习资源
 tag:

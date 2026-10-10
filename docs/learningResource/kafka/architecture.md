@@ -1,6 +1,7 @@
 ---
 title: Kafka 架构、性能与网络模型
 description: 整理 Kafka 基础、零拷贝、页缓存、生产与消费优化、TCP 连接和 Reactor 网络模型。
+date: 2026-03-30
 category:
 - 学习资源
 tag:

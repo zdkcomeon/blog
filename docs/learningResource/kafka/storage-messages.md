@@ -1,6 +1,7 @@
 ---
 title: Kafka 分区、日志与消息格式
 description: 整理分区、日志段、索引、消息定位、日志清理、RecordBatch 与消息压缩。
+date: 2026-02-09
 category:
 - 学习资源
 tag:

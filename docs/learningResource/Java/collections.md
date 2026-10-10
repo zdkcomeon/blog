@@ -1,6 +1,7 @@
 ---
 title: Java 集合与 HashMap
 description: 整理数组与集合、ArrayList、HashMap、CopyOnWriteArrayList 和集合遍历的复习笔记。
+date: 2026-07-06
 category:
 - 学习资源
 tag:

@@ -1,6 +1,7 @@
 ---
 title: Java 线程池与任务执行
 description: 整理线程池创建、核心参数、状态、线程数量和 Worker 执行与获取任务的流程。
+date: 2026-05-25
 category:
 - 学习资源
 tag:

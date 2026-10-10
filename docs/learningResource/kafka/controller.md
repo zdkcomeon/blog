@@ -1,6 +1,7 @@
 ---
 title: Kafka 控制器与 ZooKeeper
 description: 整理基于 ZooKeeper 的控制器职责、保存的数据、选举和故障转移笔记。
+date: 2026-03-16
 category:
 - 学习资源
 tag:

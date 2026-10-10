@@ -1,6 +1,7 @@
 ---
 title: Kafka 消息可靠性、幂等与事务
 description: 整理消息一致性、消息丢失场景、可靠性配置、幂等生产者和事务生产者。
+date: 2026-02-23
 category:
 - 学习资源
 tag:

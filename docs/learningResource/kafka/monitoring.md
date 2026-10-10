@@ -1,6 +1,7 @@
 ---
 title: Kafka 监控指标
 description: 整理消费进度、Lag、Broker 主机、JVM、集群和 JMX 监控提纲。
+date: 2026-03-09
 category:
 - 学习资源
 tag:

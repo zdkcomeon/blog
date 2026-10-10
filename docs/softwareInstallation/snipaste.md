@@ -1,6 +1,7 @@
 ---
 title: Snipaste：截图与贴图
 description: Snipaste 官方下载与文档，适合截图标注和临时贴图参考。
+date: 2026-09-14
 category:
 - 开发工具
 tag:

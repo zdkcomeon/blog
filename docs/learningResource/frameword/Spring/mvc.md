@@ -1,6 +1,7 @@
 ---
 title: Spring MVC 请求流程与拦截器
 description: 整理 DispatcherServlet、HandlerMapping、HandlerAdapter 和拦截器执行流程。
+date: 2025-11-03
 category:
 - 学习资源
 tag:

@@ -1,6 +1,7 @@
 ---
 title: MyBatis 参数映射与主键回填
 description: 整理参数占位符、动态表名和字段、插入主键回填以及批量插入相关问题。
+date: 2025-10-13
 category:
 - 学习资源
 tag:

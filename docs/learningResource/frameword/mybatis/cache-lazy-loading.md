@@ -1,6 +1,7 @@
 ---
 title: MyBatis 缓存与延迟加载
 description: 整理延迟加载、一级缓存、二级缓存和缓存使用建议。
+date: 2025-10-20
 category:
 - 学习资源
 tag:

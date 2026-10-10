@@ -1,6 +1,7 @@
 ---
 title: Redis 主从复制与同步问题
 description: 整理全量复制、增量复制、复制缓冲区、复制延迟、过期数据与同步配置。
+date: 2025-12-01
 category:
 - 学习资源
 tag:

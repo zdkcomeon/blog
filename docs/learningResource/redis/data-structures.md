@@ -1,6 +1,7 @@
 ---
 title: Redis 数据结构与对象存储
 description: 整理 Redis 全局结构、字典与渐进式 Rehash、压缩列表、跳表、RedisObject 和键值设计。
+date: 2026-01-05
 category:
 - 学习资源
 tag:

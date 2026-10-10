@@ -1,6 +1,7 @@
 ---
 title: TortoiseGit 安装与入口
 description: Windows Git 图形客户端 TortoiseGit 的下载和使用文档。
+date: 2026-10-05
 category:
 - 开发工具
 tag:

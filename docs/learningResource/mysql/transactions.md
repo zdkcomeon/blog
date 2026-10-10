@@ -1,6 +1,7 @@
 ---
 title: MySQL 事务与 MVCC
 description: 整理事务特性、隔离级别、Read View、MVCC 和幻读相关复习笔记。
+date: 2026-04-06
 category:
 - 学习资源
 tag:

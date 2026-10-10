@@ -1,6 +1,7 @@
 ---
 title: 用户空间、Page Cache 与刷盘
 description: 整理用户空间与内核空间、write、fsync，以及 MySQL 和 Redis 的刷盘笔记。
+date: 2026-02-02
 category:
 - 学习资源
 tag:

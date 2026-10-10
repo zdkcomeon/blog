@@ -1,6 +1,7 @@
 ---
 title: Java 类型、字符串与泛型
 description: 整理包装类型、自动拆箱、BigDecimal、字符与数字编码、String 和泛型通配符。
+date: 2026-06-01
 category:
 - 学习资源
 tag:

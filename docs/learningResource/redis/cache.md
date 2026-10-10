@@ -1,6 +1,7 @@
 ---
 title: Redis 缓存策略与一致性
 description: 整理键过期、旁路缓存、内存淘汰、缓存与数据库一致性、缓存异常和 LRU、LFU。
+date: 2026-01-19
 category:
 - 学习资源
 tag:

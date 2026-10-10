@@ -1,6 +1,7 @@
 ---
 title: MySQL 缓冲池与数据存储
 description: 整理 Buffer Pool、Change Buffer、Double Write、字段类型、表空间与行格式。
+date: 2026-04-13
 category:
 - 学习资源
 tag:

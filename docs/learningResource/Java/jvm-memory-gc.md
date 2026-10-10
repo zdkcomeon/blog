@@ -1,6 +1,7 @@
 ---
 title: JVM 内存与垃圾回收
 description: 整理运行时内存、对象分配、垃圾回收算法、CMS、GC 触发条件与排查笔记。
+date: 2026-06-08
 category:
 - 学习资源
 tag:

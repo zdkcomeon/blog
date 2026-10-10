@@ -1,6 +1,7 @@
 ---
 title: Redis List 与 Stream 消息队列
 description: 整理消息队列的基本问题，以及使用 List 和 Stream 实现消息队列的笔记。
+date: 2025-12-22
 category:
 - 学习资源
 tag:

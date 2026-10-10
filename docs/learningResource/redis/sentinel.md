@@ -1,6 +1,7 @@
 ---
 title: Redis Sentinel 与脑裂
 description: 整理哨兵配置、节点下线判断、选举、主从切换和脑裂问题。
+date: 2025-11-24
 category:
 - 学习资源
 tag:

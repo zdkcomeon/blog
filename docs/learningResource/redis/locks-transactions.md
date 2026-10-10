@@ -1,6 +1,7 @@
 ---
 title: Redis 原子操作、分布式锁与事务
 description: 整理 Redis 原子操作、单实例分布式锁、Redlock 和事务特性。
+date: 2025-12-29
 category:
 - 学习资源
 tag:

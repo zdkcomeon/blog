@@ -1,6 +1,7 @@
 ---
 title: Maven 依赖优先级笔记
 description: 整理原稿中父 POM、当前 POM 与传递依赖之间的版本选择笔记。
+date: 2026-08-03
 category:
 - 开发工具
 tag:

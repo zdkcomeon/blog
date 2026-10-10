@@ -1,6 +1,7 @@
 ---
 title: draw.io：流程图与架构图
 description: draw.io 在线绘图与桌面版入口，用于流程图、架构图和关系图。
+date: 2026-09-28
 category:
 - 开发工具
 tag:

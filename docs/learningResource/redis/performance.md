@@ -1,6 +1,7 @@
 ---
 title: Redis 性能、内存与缓冲区
 description: 整理阻塞操作、异步线程、CPU、响应延迟、内存碎片和缓冲区问题。
+date: 2025-12-15
 category:
 - 学习资源
 tag:

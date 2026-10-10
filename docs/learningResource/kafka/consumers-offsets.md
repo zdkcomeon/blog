@@ -1,6 +1,7 @@
 ---
 title: Kafka 消费与位移提交
 description: 整理 poll 参数、自动与手动位移提交、重复消费和消息顺序。
+date: 2026-03-23
 category:
 - 学习资源
 tag:
