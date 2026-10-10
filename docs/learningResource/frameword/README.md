@@ -1,6 +1,6 @@
 ---
 title: 框架与数据库访问
-description: Spring、Spring Boot、Spring Cloud 与 MyBatis 的官方资料及本站实践。
+description: Spring、Spring Boot、Spring Cloud 与 MyBatis 的官方资料、主题笔记及本站实践。
 category:
 - 学习资源
 tag:
@@ -11,7 +11,7 @@ article: false
 pageInfo: false
 ---
 
-按“基础框架 → 应用开发 → 服务调用 → 数据库访问”组织官方资料和本站笔记。
+按基础框架、应用开发、服务调用和数据库访问组织官方资料和本站笔记。各专题入口中已按容器、事务、Web 请求、缓存和分页整理复习内容。
 
 | 主题 | 阅读重点 | 入口 |
 | --- | --- | --- |

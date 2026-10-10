@@ -19,6 +19,12 @@ pageInfo: false
 - [Spring Boot 参考文档](https://docs.spring.io/spring-boot/reference/)
 - [构建 REST 服务入门](https://spring.io/guides/gs/rest-service/)
 
+## 主题笔记
+
+| 文档 | 内容 |
+| --- | --- |
+| [Spring Boot 启动与 Bean 生命周期](./startup.md) | 整理 Spring Boot 启动、Bean 定义收集、实例化、属性注入、初始化和销毁。 |
+
 ## 本站相关阅读
 
 - [Spring 基础](../Spring/)

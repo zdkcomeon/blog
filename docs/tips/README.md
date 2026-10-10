@@ -1,6 +1,6 @@
 ---
 title: 实践笔记
-description: 按指令速查、编码、测试、服务调用、性能优化和故障排查整理项目实践笔记。
+description: 按指令速查、编码、测试、服务调用、性能优化、故障排查和文件处理整理项目实践笔记。
 category:
 - 实践笔记
 tag:
@@ -9,7 +9,7 @@ article: false
 pageInfo: false
 ---
 
-从指令速查、日常代码、测试、服务集成、性能优化与故障排查六个方向整理项目中的经验。
+从指令速查、日常代码、测试、服务集成、性能优化、故障排查和文件处理等方向整理项目中的经验。
 
 | 方向 | 笔记 | 主要主题 |
 | --- | --- | --- |
@@ -21,6 +21,13 @@ pageInfo: false
 | 故障排查 | [Outbound 启动死锁调查](./outbound-startup-deadlock.md) | jstack 证据、Spring 注册表锁、监控懒加载与修复方案 |
 | 故障排查 | [Notice 启动循环依赖调查](./notice-startup-circular-dependency.md) | 消费者与生产者依赖环、Async 代理、早期引用与注入点懒加载 |
 | 性能优化 | [出单慢问题调查与优化分享](./policy-issuance-performance.md) | 分阶段日志、Arthas trace、SQL 次数分析、配置缓存与 PT 验证 |
+
+## 场景与复习提纲
+
+| 文档 | 内容 |
+| --- | --- |
+| [线上接口变慢排查提纲](./slow-interface-checklist.md) | 保留慢 SQL、中间件和第三方依赖三个方向的线上接口排查提纲。 |
+| [大文件下载与分批读取](./large-file-processing.md) | 整理大文件下载、分段传输、流式传输和分批读写的处理思路。 |
 
 测试与服务调用笔记包含配置步骤、代码示例和验证清单；文章保留原有发布日期。
 

@@ -25,4 +25,8 @@ tag:
 
 ### git 多分开发规范
 
+## 代码同步笔记
 
+| 文档 | 内容 |
+| --- | --- |
+| [Git fetch、pull 与 rebase](./git-sync.md) | 整理 Git 拉取代码、合并和 rebase 的使用笔记。 |

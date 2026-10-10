@@ -1,8 +1,14 @@
+import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import { navbar } from "./navbar.js";
 import { sidebar } from "./sidebar.js";
+import { timelinePath } from "./timeline.js";
+
+const configRequire = createRequire(import.meta.url);
+const themeRequire = createRequire(configRequire.resolve("vuepress-theme-hope"));
 
 export default defineUserConfig({
   base: "/blog/",
@@ -12,6 +18,18 @@ export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/blog/logo.png" }]],
   host: "127.0.0.1",
   port: 9090,
+  alias: {
+    "@vuepress/plugin-blog/client": themeRequire.resolve("@vuepress/plugin-blog/client"),
+    "@theme-hope/composables/blog/useTimeline": fileURLToPath(new URL("./composables/useTimeline.js", import.meta.url)),
+  },
+  plugins: [
+    {
+      name: "complete-blog-timeline",
+      extendsPage(page) {
+        if (page.frontmatter.timeline === false) page.routeMeta.timeline = false;
+      },
+    },
+  ],
   bundler: viteBundler({
     viteOptions: {
       plugins: [
@@ -58,7 +76,7 @@ export default defineUserConfig({
       hint: true,
     },
     plugins: {
-      blog: { timeline: "/timeline/", excerpt: false },
+      blog: { timeline: timelinePath, excerpt: false },
       slimsearch: {
         // 单语言站点使用字符串格式，兼容开发模式注入的搜索配置。
         customFields: [
@@ -76,5 +94,5 @@ export default defineUserConfig({
       icon: false,
       comment: false,
     },
-  }),
+  }, { custom: true }),
 });

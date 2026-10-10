@@ -18,6 +18,14 @@ pageInfo: false
 - [MyBatis 中文文档](https://mybatis.org/mybatis-3/zh/index.html)
 - [MyBatis-Spring 中文文档](https://mybatis.org/spring/zh/index.html)
 
+## 主题笔记
+
+| 文档 | 内容 |
+| --- | --- |
+| [MyBatis 参数映射与主键回填](./mapping-keys.md) | 整理参数占位符、动态表名和字段、插入主键回填以及批量插入相关问题。 |
+| [MyBatis 缓存与延迟加载](./cache-lazy-loading.md) | 整理延迟加载、一级缓存、二级缓存和缓存使用建议。 |
+| [MyBatis 分页查询](./pagination.md) | 整理手动分页、PageHelper、游标分页和自定义拦截器分页的笔记。 |
+
 ## 本站相关阅读
 
 - [MySQL 学习资料](../../mysql/八股文.md)

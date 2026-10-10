@@ -4,8 +4,7 @@ layout: Blog
 title: 首页
 description: Java 学习资源、开发工具配置与工程实践笔记。
 article: false
-heroImage: /logo.png
-heroAlt: 节节高
+heroImage: false
 bgImage: '/hero-day-desk.png'
 bgImageDark: '/hero-warm-desk.png'
 bgImageStyle:
@@ -15,13 +14,6 @@ bgImageStyle:
 heroText: 节节高
 tagline: 学基础 · 配环境 · 记实践
 heroFullScreen: false
-heroImageStyle: {
-  maxHeight: '96px',
-  display: block,
-  margin: '1rem auto',
-  borderRadius: '50%',
-  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
-}
 projects:
   - name: 学习资源
     desc: Java、MySQL、计算机基础与框架资料
