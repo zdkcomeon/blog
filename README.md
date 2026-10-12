@@ -39,3 +39,18 @@ GitHub 部署工作流使用自动生成的 `GITHUB_TOKEN` 和 `contents: write`
 - 页面公开访问，不配置全局或文章密码。旧 Reco 密码入口及 VuePress 1 看板娘插件已移除。
 
 本仓库尚未配置单元测试套件。验证升级时应检查生产构建、首页和文章直接访问，以及分类、标签、时间线页面；仅启动进程不足以证明页面可用。
+
+## Mermaid 图示
+
+已在 Hope 主题的 `markdown` 配置中启用 Mermaid，并安装与当前图表插件兼容的 Mermaid 12。文章中使用 `mermaid` 代码块即可绘制流程图、时序图和类图，无需额外注册插件。
+
+````markdown
+```mermaid
+flowchart LR
+  A[接收请求] --> B[参数校验]
+  B --> C[执行业务逻辑]
+  C --> D[返回结果]
+```
+````
+
+更多语法见 [Hope Mermaid 文档](https://theme-hope.vuejs.press/zh/guide/markdown/chart/mermaid.html)。

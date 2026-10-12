@@ -32,6 +32,10 @@ export default defineUserConfig({
   ],
   bundler: viteBundler({
     viteOptions: {
+      optimizeDeps: {
+        // 预打包 Mermaid 及其 CommonJS 依赖，确保开发模式可加载 dayjs 等模块。
+        include: ["mermaid"],
+      },
       plugins: [
         {
           name: "fix-slimsearch-dev-worker-url",
@@ -74,6 +78,7 @@ export default defineUserConfig({
     markdown: {
       highlighter: { type: "shiki", lineNumbers: true },
       hint: true,
+      mermaid: true,
     },
     plugins: {
       blog: { timeline: timelinePath, excerpt: false },
