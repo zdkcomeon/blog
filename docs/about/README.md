@@ -45,6 +45,20 @@ Java 开发工程师，具备保险核心系统、金融风控系统、AI Agent 
 在 uTools 中批量检索文件内容，筛选文件类型并导出结果。
 
 </div>
+<div class="author-project">
+
+**[LiberClean](https://github.com/zdkcomeon/liberClean)**
+
+基于 Mole 的 macOS uTools 插件，支持系统状态查看、磁盘分析、应用卸载与清理维护。
+
+</div>
+<div class="author-project">
+
+**[dsh-mcp-link](https://github.com/zdkcomeon/dsh-mcp-link)**
+
+在 DeepSeek Harness 中集中管理本机与项目 MCP 配置，支持一键接入、JSON 导入和图形化编辑。
+
+</div>
 </div>
 
 ## 工作经历
