@@ -1,6 +1,7 @@
 const learning = "/learningResource/";
 const installation = "/softwareInstallation/";
 const configuration = "/softwareConfiguration/";
+const aiPractice = "/ai-practice/";
 
 const topic = (text, directory, pages) => ({
   text,
@@ -146,11 +147,23 @@ export const sidebar = {
     { text: "线上接口变慢排查提纲", link: "/tips/slow-interface-checklist.html" },
     { text: "大文件下载与分批读取", link: "/tips/large-file-processing.html" },
   ],
+  [aiPractice]: [
+    { text: "AI 实践", link: aiPractice },
+    {
+      text: "规则文件",
+      link: `${aiPractice}rules/`,
+      collapsible: true,
+      children: [
+        { text: "全局规则文件（AGENTS.md）", link: `${aiPractice}rules/global-rules.html` },
+      ],
+    },
+  ],
   "/guide/": [
     { text: "文档地图", link: "/guide/" },
     { text: "学习资源", link: learning },
     { text: "开发工具", link: installation },
     { text: "实践笔记", link: "/tips/" },
+    { text: "AI 实践", link: aiPractice },
     { text: "生活食谱", link: "/cookbook/" },
     { text: "关于作者", link: "/about/" },
   ],

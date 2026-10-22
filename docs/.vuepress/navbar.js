@@ -43,6 +43,12 @@ export const navbar = [
       { text: "大文件下载与分批读取", link: "/tips/large-file-processing.html" },
     ],
   },
+  {
+    text: "AI 实践",
+    children: [
+      { text: "规则文件", link: "/ai-practice/rules/" },
+    ],
+  },
   { text: "文档地图", link: "/guide/" },
   {
     text: "发现",

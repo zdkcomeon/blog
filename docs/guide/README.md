@@ -1,6 +1,6 @@
 ---
 title: 文档地图
-description: 本站完整文档目录，按学习资源、开发工具、实践笔记与生活记录整理。
+description: 本站完整文档目录，按学习资源、开发工具、实践笔记、AI 实践与生活记录整理。
 category:
 - 文档导航
 tag:
@@ -9,7 +9,7 @@ article: false
 pageInfo: false
 ---
 
-第一次来到这里，可以先选择 [学习资源](../learningResource/)、[开发工具](../softwareInstallation/) 或 [实践笔记](../tips/)。下面是全部专题、资料与笔记的目录。
+第一次来到这里，可以先选择 [学习资源](../learningResource/)、[开发工具](../softwareInstallation/)、[实践笔记](../tips/) 或 [AI 实践](../ai-practice/)。下面是全部专题、资料与笔记的目录。
 
 ## 如何查找
 
@@ -127,6 +127,14 @@ pageInfo: false
 | [出单慢问题调查与优化分享](../tips/policy-issuance-performance.md) | 通过日志、Arthas 和 SQL 次数定位商品配置查询与缓存失效，记录两阶段优化及 PT 验证证据。 |
 | [线上接口变慢排查提纲](../tips/slow-interface-checklist.md) | 保留慢 SQL、中间件和第三方依赖三个方向的线上接口排查提纲。 |
 | [大文件下载与分批读取](../tips/large-file-processing.md) | 整理大文件下载、分段传输、流式传输和分批读写的处理思路。 |
+
+## AI 实践
+
+| 文档 | 内容 |
+| --- | --- |
+| [AI 实践](../ai-practice/README.md) | AI 辅助开发中的配置与使用实践入口。 |
+| [规则文件](../ai-practice/rules/README.md) | AI 编程助手的全局规则与协作约定。 |
+| [全局规则文件（AGENTS.md）](../ai-practice/rules/global-rules.md) | 第一性原理、编码规范、日志、接口、数据库与输出约定，附原文件下载。 |
 
 ## 生活与归档
 
