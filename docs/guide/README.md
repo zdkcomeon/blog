@@ -114,19 +114,35 @@ pageInfo: false
 
 ## 实践笔记
 
+从 [实践总览](../tips/) 选择开发与集成、故障排查或性能优化，也可以按故障现象直接定位笔记。
+
+### 开发与集成
+
 | 文档 | 内容 |
 | --- | --- |
-| [实践笔记](../tips/README.md) | 按指令速查、编码、测试、服务调用、性能优化、故障排查和文件处理整理项目实践笔记。 |
-| [常用中间件指令](../tips/middleware-commands.md) | Arthas 启动、类加载器排查、方法耗时分析、Java Agent 启动与 Git 提交整理和贮存命令。 |
+| [开发与集成](../tips/development/) | 按日常编码、自动化测试、服务调用与大文件处理选择笔记。 |
 | [Java 与 Spring 编码技巧](../tips/技巧积攒.md) | 收集函数式异常处理、JSON 操作、Redisson 锁封装和 Spring 注入实践。 |
 | [单元测试](../tips/unitTest.md) | 用 JUnit 5、Mockito、MockMvc 和 MyBatis 测试切片验证 Controller、Service、Mapper，覆盖正常、异常、边界与静态方法场景。 |
 | [OpenFeign 定制配置](../tips/记一次openFeign定制化使用.md) | 使用 Apache HttpClient 5 为第三方 OpenFeign 接口隔离连接池、代理、授权、超时与重试配置，并验证内部客户端不受影响。 |
-| [Kafka StringSerializer 类加载调查](../tips/kafka-string-serializer.md) | 排查公共线程池首次发送消息时的序列化类加载失败，分析延迟初始化与 TCCL。 |
+| [大文件下载与分批读取](../tips/large-file-processing.md) | 整理大文件下载、分段传输、流式传输和分批读写的处理思路。 |
+
+### 故障排查
+
+| 文档 | 内容 |
+| --- | --- |
+| [故障排查](../tips/troubleshooting/) | 诊断命令速查与按故障现象组织的调查记录。 |
+| [常用中间件指令](../tips/middleware-commands.md) | Arthas 启动、类加载器排查、方法耗时分析、Java Agent 启动与 Git 提交整理和贮存命令。 |
+| [Kafka 类加载故障调查](../tips/kafka-string-serializer.md) | 排查公共线程池首次发送消息时的序列化类加载失败，分析延迟初始化与 TCCL。 |
 | [Outbound 启动死锁调查](../tips/outbound-startup-deadlock.md) | 结合 jstack 确认 Spring 注册表锁与 Prometheus 跟踪懒加载锁的死锁，分析触发时序与修复方案。 |
 | [Notice 启动循环依赖调查](../tips/notice-startup-circular-dependency.md) | 分析 Test2 的 BeanCurrentlyInCreationException、Async 代理与早期引用不一致，记录懒加载修复和横向审查。 |
-| [出单慢问题调查与优化分享](../tips/policy-issuance-performance.md) | 通过日志、Arthas 和 SQL 次数定位商品配置查询与缓存失效，记录两阶段优化及 PT 验证证据。 |
+
+### 性能优化
+
+| 文档 | 内容 |
+| --- | --- |
+| [性能优化](../tips/performance/) | 从接口变慢排查提纲进入，结合案例理解耗时定位与优化验证。 |
 | [线上接口变慢排查提纲](../tips/slow-interface-checklist.md) | 保留慢 SQL、中间件和第三方依赖三个方向的线上接口排查提纲。 |
-| [大文件下载与分批读取](../tips/large-file-processing.md) | 整理大文件下载、分段传输、流式传输和分批读写的处理思路。 |
+| [出单慢调查与优化](../tips/policy-issuance-performance.md) | 通过日志、Arthas 和 SQL 次数定位商品配置查询与缓存失效，记录两阶段优化及 PT 验证证据。 |
 
 ## AI 实践
 

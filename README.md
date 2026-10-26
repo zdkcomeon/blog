@@ -27,6 +27,7 @@ GitHub 部署工作流使用自动生成的 `GITHUB_TOKEN` 和 `contents: write`
 - 版本固定为 VuePress `2.0.0-rc.31`、Hope `2.0.0-rc.110`；两者仍为候选版本，升级时需核对兼容性。
 - 首页采用 Hope 的 `Blog` 布局，提供学习资源、开发工具、实践笔记和文档地图入口。
 - 顶部导航定义在 `docs/.vuepress/navbar.js`，侧边栏在 `docs/.vuepress/sidebar.js` 按主题分组。
+- 实践笔记按开发与集成、故障排查、性能优化三个专题组织；导航和侧栏共用 `docs/.vuepress/practice.js`，专题目录位于 `docs/tips/` 下，文章继续使用原有地址。
 - 主分类统一为学习资源、开发工具、实践笔记、AI 实践、生活记录；标签同时描述技术主题与文档用途。
 - 文章元数据使用 `category`、`tag` 和 `YYYY-MM-DD` 格式的 `date`。
 - 时间线汇总正文文章；有日期的文章按年份和日期倒序排列，无日期的文章显示在未注明日期分组。首页侧栏与时间线页面使用同一份数据，`timeline: false` 可排除特定文章。

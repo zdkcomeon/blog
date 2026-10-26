@@ -22,7 +22,7 @@ projects:
     desc: 开发环境安装、配置与效率工具
     link: /softwareInstallation/
   - name: 实践笔记
-    desc: 编码技巧、单元测试与服务调用
+    desc: 开发与集成、故障排查与性能优化
     link: /tips/
   - name: 文档地图
     desc: 查看完整目录，按主题开始阅读
