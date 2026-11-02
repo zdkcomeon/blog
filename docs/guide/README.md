@@ -152,6 +152,8 @@ pageInfo: false
 | [规则文件](../ai-practice/rules/README.md) | AI 编程助手的全局规则与协作约定。 |
 | [全局规则文件（AGENTS.md）](../ai-practice/rules/global-rules.md) | 第一性原理、编码规范、日志、接口、数据库与输出约定，附原文件下载。 |
 
+| [用中文狠狠吐槽我：提示词与回复](../ai-practice/prompts/roast-me-in-chinese.md) | 一次中文吐槽对话的提示词与完整回复。 |
+
 ## 生活与归档
 
 | 文档 | 内容 |

@@ -146,6 +146,7 @@ export const sidebar = {
   ],
   [aiPractice]: [
     { text: "AI 实践", link: aiPractice },
+    { text: "用中文狠狠吐槽我：提示词与回复", link: `${aiPractice}prompts/roast-me-in-chinese.html` },
     {
       text: "规则文件",
       link: `${aiPractice}rules/`,
