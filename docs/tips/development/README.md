@@ -1,6 +1,6 @@
 ---
 title: 开发与集成
-description: 按日常编码、自动化测试、服务调用与大文件处理查找开发实践。
+description: 按日常编码、自动化测试、服务调用、大文件处理与接口重试查找开发实践。
 category:
 - 实践笔记
 tag:
@@ -19,5 +19,6 @@ pageInfo: false
 | 为业务逻辑和接口补测试 | [单元测试](../unitTest.md) | JUnit 5、Mockito、MockMvc、MyBatis 测试切片与异常边界 |
 | 配置第三方 HTTP 服务调用 | [OpenFeign 定制配置](../记一次openFeign定制化使用.md) | HC5 客户端隔离、连接池、代理、授权与超时验证 |
 | 下载或读取大文件 | [大文件下载与分批读取](../large-file-processing.md) | 分段传输、流式下载与分批读写 |
+| 写接口超时后需要重试 | [接口超时后，怎样重试才不会重复创建任务？](../idempotent-job-submission.md) | 用幂等键和数据库唯一约束处理报表任务的重复提交 |
 
 服务无法启动或调用异常时，查看 [故障排查](../troubleshooting/)；接口耗时增加时，查看 [性能优化](../performance/)。

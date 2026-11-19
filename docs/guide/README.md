@@ -125,6 +125,7 @@ pageInfo: false
 | [单元测试](../tips/unitTest.md) | 用 JUnit 5、Mockito、MockMvc 和 MyBatis 测试切片验证 Controller、Service、Mapper，覆盖正常、异常、边界与静态方法场景。 |
 | [OpenFeign 定制配置](../tips/记一次openFeign定制化使用.md) | 使用 Apache HttpClient 5 为第三方 OpenFeign 接口隔离连接池、代理、授权、超时与重试配置，并验证内部客户端不受影响。 |
 | [大文件下载与分批读取](../tips/large-file-processing.md) | 整理大文件下载、分段传输、流式传输和分批读写的处理思路。 |
+| [接口超时后，怎样重试才不会重复创建任务？](../tips/idempotent-job-submission.md) | 从报表导出示例理解幂等键、并发去重与重试窗口。 |
 
 ### 故障排查
 

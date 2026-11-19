@@ -10,6 +10,7 @@ export const practiceGroups = [
       { text: "单元测试", link: "/tips/unitTest.html" },
       { text: "OpenFeign 定制配置", link: "/tips/记一次openFeign定制化使用.html" },
       { text: "大文件下载与分批读取", link: "/tips/large-file-processing.html" },
+      { text: "接口超时与幂等重试", link: "/tips/idempotent-job-submission.html" },
     ],
   },
   {
