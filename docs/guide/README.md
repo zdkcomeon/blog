@@ -159,6 +159,7 @@ pageInfo: false
 
 | 文档 | 内容 |
 | --- | --- |
+| [下班前，给明天留三行](../life/three-lines-for-tomorrow.md) | 从一条没做完的待办写起，聊聊下班前的几分钟。 |
 | [一个人的生活食谱](../cookbook/README.md) | 整理适合一个人的家常菜、外卖和聚餐选择。 |
 | [时间线入口](../timeLine/README.md) | 按年份浏览有日期的文章，并在未注明日期分组查看其他文章。 |
 
